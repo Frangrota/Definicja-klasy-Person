@@ -1,0 +1,10 @@
+﻿using PersonNS;
+Person person = new();
+Person person2 = new("Wacper", "Kawrzyniak", 3);
+Person person3 = new();
+person3.FirstName = "Igor";
+person3.LastName = "Koczownik";
+person3.Age = 420;
+person.ShowCardDetails();
+person2.ShowCardDetails();
+person3.ShowCardDetails();
